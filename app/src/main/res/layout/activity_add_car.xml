@@ -6,4 +6,28 @@
     android:layout_height="match_parent"
     tools:context=".ui.addcar.AddCarActivity">
 
+    <TextView
+        android:id="@+id/emailTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:text="@string/email"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/emailEditText"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <com.dicoding.picodiploma.submission_story_app.ui.customview.NameEditText
+        android:id="@+id/emailEditText"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:hint="@string/fill_email"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:startIconDrawable="@drawable/ic_email" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
