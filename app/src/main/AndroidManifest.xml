@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CapstonePAKE">
         <activity
+            android:name=".ui.addcar.AddCarActivity"
+            android:exported="false" />
+        <activity
             android:name=".ui.changepassword.ChangePasswordActivity"
             android:exported="false" />
         <activity
