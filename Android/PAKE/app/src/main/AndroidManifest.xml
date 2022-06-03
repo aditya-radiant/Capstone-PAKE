@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CapstonePAKE">
         <activity
+            android:name=".ui.CameraActivity"
+            android:exported="false" />
+        <activity
             android:name=".ui.test"
             android:exported="false" />
         <activity
