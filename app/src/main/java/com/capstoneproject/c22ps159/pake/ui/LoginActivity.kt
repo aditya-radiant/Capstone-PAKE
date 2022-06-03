@@ -1,11 +1,12 @@
-package com.capstoneproject.c22ps159.pake
+package com.capstoneproject.c22ps159.pake.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.capstoneproject.c22ps159.pake.R
 
-class ChangePasswordActivity : AppCompatActivity() {
+class LoginActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_change_password)
+        setContentView(R.layout.activity_login)
     }
 }

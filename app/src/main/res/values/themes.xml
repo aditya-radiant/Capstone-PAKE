@@ -13,4 +13,51 @@
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+
+    <style name="ElevatedCardView">
+        <item name="android:backgroundTint">@color/Orange1</item>
+        <item name="cardCornerRadius">8dp</item>
+    </style>
+
+    <style name="TextTitle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/Orange1</item>
+
+    </style>
+
+    <style name="TextTitle.bold">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="TextTitle.item">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/BlueNavy</item>
+    </style>
+
+    <style name="TextTitle.Tiny">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="TextItem">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="TextItem.Field">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginRight">16dp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="TextItem.Value">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+    </style>
 </resources>
