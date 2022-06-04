@@ -41,11 +41,11 @@
         app:layout_constraintBottom_toTopOf="@+id/emailEditText"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <com.dicoding.picodiploma.submission_story_app.ui.customview.EmailEditText
+    <com.capstoneproject.c22ps159.pake.ui.customview.EmailEditText
         android:id="@+id/emailEditText"
-        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_marginStart="32dp"
         android:layout_marginEnd="32dp"
         android:hint="@string/fill_email"
@@ -64,11 +64,11 @@
         app:layout_constraintBottom_toTopOf="@+id/passwordEditText"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <com.dicoding.picodiploma.submission_story_app.ui.customview.PasswordEditText
+    <com.capstoneproject.c22ps159.pake.ui.customview.PasswordEditText
         android:id="@+id/passwordEditText"
-        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_marginStart="32dp"
         android:layout_marginEnd="32dp"
         android:layout_marginBottom="24dp"

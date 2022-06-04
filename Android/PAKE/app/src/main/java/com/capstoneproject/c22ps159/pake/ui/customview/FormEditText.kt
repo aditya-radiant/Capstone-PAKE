@@ -13,8 +13,9 @@ import androidx.core.content.ContextCompat
 import com.capstoneproject.c22ps159.pake.R
 
 class FormEditText: AppCompatEditText, View.OnTouchListener {
+    private val roundedBackground =
+        ContextCompat.getDrawable(context, R.drawable.bg_edttext)
     private lateinit var clearButtonImage: Drawable
-
     constructor(context: Context) : super(context) {
         init()
     }
@@ -27,12 +28,10 @@ class FormEditText: AppCompatEditText, View.OnTouchListener {
         init()
     }
 
-    override fun onDraw(canvas: Canvas) {
+    override fun onDraw(canvas: Canvas?) {
         super.onDraw(canvas)
-        // Menambahkan hint pada editText
-        hint = "Masukkan nama Anda"
-
-        // Menambahkan text aligmnet pada editText
+        background = roundedBackground
+        textSize = 14F
         textAlignment = View.TEXT_ALIGNMENT_VIEW_START
     }
 

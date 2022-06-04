@@ -10,11 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CapstonePAKE">
         <activity
-            android:name=".ui.CameraActivity"
+            android:name=".ui.register.RegisterActivity"
             android:exported="false" />
         <activity
-            android:name=".ui.test"
+            android:name=".ui.CameraActivity"
             android:exported="false" />
+
         <activity
             android:name=".ui.resetpassword.ResetPasswordActivity"
             android:exported="false" />

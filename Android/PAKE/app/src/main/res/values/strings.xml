@@ -10,4 +10,6 @@
     <string name="fill_email">Fill your email</string>
     <string name="fill_the_password">Fill your password</string>
     <string name="Welcome">Welcome to PAKE</string>
+    <string name="car_type">Car Type</string>
+    <string name="number_plat">Number Plate</string>
 </resources>

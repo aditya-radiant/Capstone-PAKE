@@ -1,4 +1,4 @@
-package com.dicoding.picodiploma.submission_story_app.ui.customview
+package com.capstoneproject.c22ps159.pake.ui.customview
 
 import android.content.Context
 import android.graphics.Canvas
