@@ -10,6 +10,65 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
+        <RelativeLayout
+            android:id="@+id/image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="32dp">
+
+            <RelativeLayout
+                android:id="@+id/group_88"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp">
+
+                <View
+                    android:id="@+id/rectangle_51"
+                    android:layout_width="212dp"
+                    android:layout_height="152dp"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="0dp"
+                    android:background="@drawable/rectangle_51_shape" />
+
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/add_image"
+                android:layout_width="96dp"
+                android:layout_height="96dp"
+                android:layout_marginStart="58dp"
+                android:layout_marginTop="26dp"
+                android:contentDescription="@string/ImageView"
+                android:src="@drawable/add_image" />
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/gallery_button"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="52dp"
+            android:text="@string/Gallery"
+            android:backgroundTint="@color/Orange1"
+            app:layout_constraintBottom_toBottomOf="@+id/camera_button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/camera_button" />
+
+        <Button
+            android:id="@+id/camera_button"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="52dp"
+            android:layout_marginTop="32dp"
+            android:backgroundTint="@color/Orange1"
+            android:text="@string/camera"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/image" />
+
         <TextView
             android:id="@+id/carTextView"
             android:layout_width="wrap_content"
@@ -19,7 +78,7 @@
             android:text="@string/car_type"
             android:textColor="@color/Orange1"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toBottomOf="@+id/gallery_button" />
 
         <com.capstoneproject.c22ps159.pake.ui.customview.FormEditText
             android:id="@+id/carEditText"
@@ -59,6 +118,95 @@
             android:ems="10"
             android:inputType="textEmailAddress"
             tools:ignore="SpeakableTextPresentCheck" />
+
+        <TextView
+        android:id="@+id/Mileage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/mileage"
+        android:textColor="@color/Orange1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/platEditText"/>
+
+        <com.capstoneproject.c22ps159.pake.ui.customview.FormEditText
+            android:id="@+id/MileageEditText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Mileage"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <TextView
+            android:id="@+id/Year"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/production"
+            android:textColor="@color/Orange1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/MileageEditText"/>
+
+        <com.capstoneproject.c22ps159.pake.ui.customview.FormEditText
+            android:id="@+id/YearEditText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Year"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <TextView
+            android:id="@+id/maintenance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/maintenance"
+            android:textColor="@color/Orange1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/YearEditText"/>
+
+        <com.capstoneproject.c22ps159.pake.ui.customview.FormEditText
+            android:id="@+id/maintenanceEditText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/maintenance"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <Button
+            android:id="@+id/AddCarButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:text="@string/addCar"
+            android:background="@drawable/button_add_car"
+            android:backgroundTint="@color/Orange1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/maintenanceEditText" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
