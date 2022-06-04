@@ -1,12 +1,12 @@
 # Capstone-PAKE
 
 Our Team Consists of
-● (ML) M2115F1455 - Farhan Febriyandi - Institut Teknologi Indonesia
-● (ML) M2119F1494 - Nur Muhammad Herlim - Institut Teknologi Sumatera
-● (ML) M2200F1887 - Aaron Timothy - Universitas Diponegoro
-● (MD) A2200F1881 - Zwingli Hilkia Batubara - Universitas Diponegoro
-● (MD) A7200F1888 - Aditya Radian Tanata - Universitas Diponegoro
-● (CC) C2115F1454 - Juanda Trimuliawan - Institut Teknologi Indonesia
+    ● (ML) M2115F1455 - Farhan Febriyandi - Institut Teknologi Indonesia
+    ● (ML) M2119F1494 - Nur Muhammad Herlim - Institut Teknologi Sumatera
+    ● (ML) M2200F1887 - Aaron Timothy - Universitas Diponegoro
+    ● (MD) A2200F1881 - Zwingli Hilkia Batubara - Universitas Diponegoro
+    ● (MD) A7200F1888 - Aditya Radian Tanata - Universitas Diponegoro
+    ● (CC) C2115F1454 - Juanda Trimuliawan - Institut Teknologi Indonesia
 
 # PAKE? What is that?
 PAKE (Pemeliharaan Kendaraan), is an application that can list your car, and also remind you about your car maintenance time
