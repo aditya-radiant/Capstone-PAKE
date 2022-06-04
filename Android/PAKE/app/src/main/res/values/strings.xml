@@ -24,6 +24,9 @@
     <string name="maintenance">Last Maintenance Time</string>
     <string name="addCar">Add Car</string>
     <string name="ImageView">Image View</string>
-    <string name="tv_last_name">Last Name</string>
-    <string name="ed_email">Email</string>
+    <string name="request_reset_password">Request Reset Password</string>
+    <string name="nav_regist_from_fp">Belum punya akun? Daftar akun</string>
+    <string name="reset_password_title">RESET PASSWORD</string>
+    <string name="ed_email_rp">New Password</string>
+    <string name="confirm">Confirm</string>
 </resources>
