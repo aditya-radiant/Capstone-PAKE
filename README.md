@@ -1,5 +1,13 @@
 # Capstone-PAKE
 
+# Our Team
+1. (ML) M2115F1455 - Farhan Febriyandi - Institut Teknologi Indonesia
+2. (ML) M2119F1494 - Nur Muhammad Herlim - Institut Teknologi Sumatera
+3. (ML) M2200F1887 - Aaron Timothy - Universitas Diponegoro
+4. (MD) A2200F1881 - Zwingli Hilkia Batubara - Universitas Diponegoro
+5. (MD) A7200F1888 - Aditya Radian Tanata - Universitas Diponegoro
+6. (CC) C2115F1454 - Juanda Trimuliawan - Institut Teknologi Indonesia
+
 # PAKE? What is that?
 PAKE (Pemeliharaan Kendaraan), is an application that can list your car, and also remind you about your car maintenance time
 People sometimes didnt treat car maintenance seriously, sometimes they forgot to schedule maintenance to their car, it sometimes proven to be dangerous, it can lead to uncomfortable driving, even can lead to traffic accident.
