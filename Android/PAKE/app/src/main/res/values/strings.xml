@@ -17,4 +17,13 @@
     <string name="tv_first_name">First Name</string>
     <string name="tv_last_name">Last Name</string>
     <string name="ed_email">Email</string>
+    <string name="Gallery">Gallery</string>
+    <string name="camera">CAMERA</string>
+    <string name="mileage">Mileage</string>
+    <string name="production">Production Year</string>
+    <string name="maintenance">Last Maintenance Time</string>
+    <string name="addCar">Add Car</string>
+    <string name="ImageView">Image View</string>
+    <string name="tv_last_name">Last Name</string>
+    <string name="ed_email">Email</string>
 </resources>
