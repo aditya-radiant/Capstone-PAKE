@@ -12,4 +12,7 @@
     <string name="Welcome">Welcome to PAKE</string>
     <string name="car_type">Car Type</string>
     <string name="number_plat">Number Plate</string>
+    <string name="forget_password_title">FORGET PASSWORD</string>
+    <string name="tv_description_forget_password">Silahkan isi data berikut agar kami dapat mengirimkan link untuk reset password ke email anda.</string>
+    <string name="tv_first_name">First Name</string>
 </resources>
