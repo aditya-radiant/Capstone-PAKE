@@ -24,4 +24,6 @@
     <string name="maintenance">Last Maintenance Time</string>
     <string name="addCar">Add Car</string>
     <string name="ImageView">Image View</string>
+    <string name="tv_last_name">Last Name</string>
+    <string name="ed_email">Email</string>
 </resources>
