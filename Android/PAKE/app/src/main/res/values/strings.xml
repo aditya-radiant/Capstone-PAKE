@@ -43,4 +43,8 @@
     <string name="register_new_acc">REGISTER NEW ACCOUNT</string>
     <string name="description">desc</string>
     <string name="reset_report_problem_title">Report Problem</string>
+    <string name="ed_new_password">New Password</string>
+    <string name="change_password">Change Password</string>
+    <string name="ed_password_rp">Password</string>
+    <string name="ed_confirm_new_password">Confirm New Password</string>
 </resources>
