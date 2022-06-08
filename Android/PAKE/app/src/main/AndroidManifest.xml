@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CapstonePAKE">
         <activity
+            android:name=".ui.carlist.CarListActivity"
+            android:exported="false" />
+        <activity
             android:name=".ui.reportproblem.ReportProblemActivity"
             android:exported="false" />
         <activity

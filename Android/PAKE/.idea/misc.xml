@@ -8,6 +8,7 @@
         <entry key="..\:/DocumentZ/Project/Capstone-PAKE/Android/PAKE/app/src/main/res/drawable/bg_btn_orange.xml" value="0.184" />
         <entry key="..\:/DocumentZ/Project/Capstone-PAKE/Android/PAKE/app/src/main/res/drawable/bg_edttext.xml" value="0.184" />
         <entry key="..\:/DocumentZ/Project/Capstone-PAKE/Android/PAKE/app/src/main/res/drawable/bg_edttext_border_color.xml" value="0.184" />
+        <entry key="..\:/DocumentZ/Project/Capstone-PAKE/Android/PAKE/app/src/main/res/drawable/bg_orange_rectangle.xml" value="0.184" />
         <entry key="..\:/DocumentZ/Project/Capstone-PAKE/Android/PAKE/app/src/main/res/drawable/ic_clear.xml" value="0.124" />
         <entry key="..\:/DocumentZ/Project/Capstone-PAKE/Android/PAKE/app/src/main/res/drawable/ic_close.xml" value="0.124" />
         <entry key="..\:/DocumentZ/Project/Capstone-PAKE/Android/PAKE/app/src/main/res/drawable/ic_hide.xml" value="0.184" />
@@ -18,6 +19,7 @@
         <entry key="..\:/DocumentZ/Project/Capstone-PAKE/Android/PAKE/app/src/main/res/layout/activity_add_car.xml" value="0.264" />
         <entry key="..\:/DocumentZ/Project/Capstone-PAKE/Android/PAKE/app/src/main/res/layout/activity_bottom_navigation.xml" value="0.18795289855072464" />
         <entry key="..\:/DocumentZ/Project/Capstone-PAKE/Android/PAKE/app/src/main/res/layout/activity_camera.xml" value="0.18795289855072464" />
+        <entry key="..\:/DocumentZ/Project/Capstone-PAKE/Android/PAKE/app/src/main/res/layout/activity_car_list.xml" value="0.4" />
         <entry key="..\:/DocumentZ/Project/Capstone-PAKE/Android/PAKE/app/src/main/res/layout/activity_change_password.xml" value="0.264" />
         <entry key="..\:/DocumentZ/Project/Capstone-PAKE/Android/PAKE/app/src/main/res/layout/activity_forget_password.xml" value="0.264" />
         <entry key="..\:/DocumentZ/Project/Capstone-PAKE/Android/PAKE/app/src/main/res/layout/activity_login.xml" value="0.4" />

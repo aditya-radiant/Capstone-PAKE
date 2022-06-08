@@ -47,4 +47,6 @@
     <string name="change_password">Change Password</string>
     <string name="ed_password_rp">Password</string>
     <string name="ed_confirm_new_password">Confirm New Password</string>
+    <string name="your_car_list">Your Car List</string>
+    <string name="mobile_favorite">Mobile Favorite</string>
 </resources>
