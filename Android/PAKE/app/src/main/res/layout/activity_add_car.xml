@@ -91,7 +91,6 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/carTextView"
             android:ems="10"
-            android:inputType="textEmailAddress"
             tools:ignore="SpeakableTextPresentCheck" />
 
         <TextView
@@ -116,7 +115,6 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/plat_no"
             android:ems="10"
-            android:inputType="textEmailAddress"
             tools:ignore="SpeakableTextPresentCheck" />
 
         <TextView
@@ -141,7 +139,6 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/Mileage"
             android:ems="10"
-            android:inputType="textEmailAddress"
             tools:ignore="SpeakableTextPresentCheck" />
 
         <TextView
@@ -166,7 +163,6 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/Year"
             android:ems="10"
-            android:inputType="textEmailAddress"
             tools:ignore="SpeakableTextPresentCheck" />
 
         <TextView
@@ -191,7 +187,6 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/maintenance"
             android:ems="10"
-            android:inputType="textEmailAddress"
             tools:ignore="SpeakableTextPresentCheck" />
 
         <Button
