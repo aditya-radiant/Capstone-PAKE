@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CapstonePAKE">
         <activity
+            android:name=".ui.reportproblem.ReportProblemActivity"
+            android:exported="false" />
+        <activity
             android:name=".ui.bottomnav.BottomNavigationActivity"
             android:exported="true"
             android:label="@string/title_activity_bottom_navigation">
@@ -19,7 +22,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".ui.forgetpassword.ForgetPasswordActivity"
             android:exported="false" />
@@ -43,8 +45,7 @@
             android:exported="false" />
         <activity
             android:name=".MainActivity"
-            android:exported="false"/>
-
+            android:exported="false" />
     </application>
 
 </manifest>

@@ -12,8 +12,11 @@
         <entry key="..\:/DocumentZ/Project/Capstone-PAKE/Android/PAKE/app/src/main/res/drawable/ic_close.xml" value="0.124" />
         <entry key="..\:/DocumentZ/Project/Capstone-PAKE/Android/PAKE/app/src/main/res/drawable/ic_hide.xml" value="0.184" />
         <entry key="..\:/DocumentZ/Project/Capstone-PAKE/Android/PAKE/app/src/main/res/drawable/ic_hide_disabled.xml" value="0.184" />
+        <entry key="..\:/DocumentZ/Project/Capstone-PAKE/Android/PAKE/app/src/main/res/drawable/ic_home_black_24dp.xml" value="0.184" />
         <entry key="..\:/DocumentZ/Project/Capstone-PAKE/Android/PAKE/app/src/main/res/drawable/ic_lock.xml" value="0.184" />
+        <entry key="..\:/DocumentZ/Project/Capstone-PAKE/Android/PAKE/app/src/main/res/drawable/report_img.xml" value="0.184" />
         <entry key="..\:/DocumentZ/Project/Capstone-PAKE/Android/PAKE/app/src/main/res/layout/activity_add_car.xml" value="0.264" />
+        <entry key="..\:/DocumentZ/Project/Capstone-PAKE/Android/PAKE/app/src/main/res/layout/activity_bottom_navigation.xml" value="0.18795289855072464" />
         <entry key="..\:/DocumentZ/Project/Capstone-PAKE/Android/PAKE/app/src/main/res/layout/activity_camera.xml" value="0.18795289855072464" />
         <entry key="..\:/DocumentZ/Project/Capstone-PAKE/Android/PAKE/app/src/main/res/layout/activity_change_password.xml" value="0.18795289855072464" />
         <entry key="..\:/DocumentZ/Project/Capstone-PAKE/Android/PAKE/app/src/main/res/layout/activity_forget_password.xml" value="0.264" />
@@ -21,7 +24,12 @@
         <entry key="..\:/DocumentZ/Project/Capstone-PAKE/Android/PAKE/app/src/main/res/layout/activity_lupa_password.xml" value="0.18795289855072464" />
         <entry key="..\:/DocumentZ/Project/Capstone-PAKE/Android/PAKE/app/src/main/res/layout/activity_main.xml" value="0.18795289855072464" />
         <entry key="..\:/DocumentZ/Project/Capstone-PAKE/Android/PAKE/app/src/main/res/layout/activity_register.xml" value="0.18795289855072464" />
+        <entry key="..\:/DocumentZ/Project/Capstone-PAKE/Android/PAKE/app/src/main/res/layout/activity_report_problem.xml" value="0.264" />
         <entry key="..\:/DocumentZ/Project/Capstone-PAKE/Android/PAKE/app/src/main/res/layout/activity_reset_password.xml" value="0.264" />
+        <entry key="..\:/DocumentZ/Project/Capstone-PAKE/Android/PAKE/app/src/main/res/layout/fragment_dashboard.xml" value="0.18795289855072464" />
+        <entry key="..\:/DocumentZ/Project/Capstone-PAKE/Android/PAKE/app/src/main/res/layout/fragment_home.xml" value="0.18795289855072464" />
+        <entry key="..\:/DocumentZ/Project/Capstone-PAKE/Android/PAKE/app/src/main/res/layout/fragment_notifications.xml" value="0.18795289855072464" />
+        <entry key="..\:/DocumentZ/Project/Capstone-PAKE/Android/PAKE/app/src/main/res/layout/item_car_reminder.xml" value="0.18795289855072464" />
         <entry key="..\:/Kuliah/Bangkit/Capstone/Capstone Pake/Android/PAKE/app/src/main/res/drawable/ic_dashboard_black_24dp.xml" value="0.2045" />
         <entry key="..\:/Kuliah/Bangkit/Capstone/Capstone Pake/Android/PAKE/app/src/main/res/layout/activity_add_car.xml" value="0.29775280898876405" />
         <entry key="..\:/Kuliah/Bangkit/Capstone/Capstone Pake/Android/PAKE/app/src/main/res/layout/activity_bottom_navigation.xml" value="0.1" />

@@ -15,7 +15,7 @@ import com.capstoneproject.c22ps159.pake.R
 
 class PasswordEditText: AppCompatEditText, View.OnTouchListener {
 
-    private val roundedBackground = ContextCompat.getDrawable(context, R.drawable.bg_edttext)
+    private val roundedBackground = ContextCompat.getDrawable(context, R.drawable.bg_edttext_border_color)
     private lateinit var hidePasswordIcon: Drawable
     private lateinit var showPasswordIcon: Drawable
     private var isHidden = true

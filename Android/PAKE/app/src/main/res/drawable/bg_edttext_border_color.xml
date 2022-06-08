@@ -5,7 +5,7 @@
         android:color="@android:color/transparent"/>
 
     <corners
-        android:radius="8dp"/>
+        android:radius="45dp"/>
     <stroke
         android:color="@color/Orange1"
         android:width="2dp"/>

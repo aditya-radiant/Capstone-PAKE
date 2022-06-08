@@ -14,7 +14,7 @@ import com.capstoneproject.c22ps159.pake.R
 
 class FormEditText: AppCompatEditText, View.OnTouchListener {
     private val roundedBackground =
-        ContextCompat.getDrawable(context, R.drawable.bg_edttext)
+        ContextCompat.getDrawable(context, R.drawable.bg_edttext_border_color)
     private lateinit var clearButtonImage: Drawable
     constructor(context: Context) : super(context) {
         init()
@@ -30,7 +30,7 @@ class FormEditText: AppCompatEditText, View.OnTouchListener {
 
     override fun onDraw(canvas: Canvas?) {
         super.onDraw(canvas)
-        background = roundedBackground
+        setBackgroundResource(R.drawable.bg_edttext_border_color)
         textSize = 14F
         textAlignment = View.TEXT_ALIGNMENT_VIEW_START
     }

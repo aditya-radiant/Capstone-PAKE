@@ -110,7 +110,7 @@ class EmailEditText: TextInputEditText, View.OnTouchListener {
 
     override fun onDraw(canvas: Canvas?) {
         super.onDraw(canvas)
-        background = roundedBackground
+        setBackgroundResource(R.drawable.bg_edttext_border_color)
         textSize = 14F
         textAlignment = View.TEXT_ALIGNMENT_VIEW_START
     }
