@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.capstoneproject.c22ps159.pake">
+    <uses-permission android:name="android.permission.INTERNET" />
 
+    <uses-feature android:name="android.hardware.camera" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -17,29 +30,28 @@
             android:exported="false" />
         <activity
             android:name=".ui.bottomnav.BottomNavigationActivity"
-            android:exported="true"
-            android:label="@string/title_activity_bottom_navigation">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+            android:exported="false"
+            android:label="@string/title_activity_bottom_navigation"/>
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
         <activity
             android:name=".ui.forgetpassword.ForgetPasswordActivity"
             android:exported="false" />
         <activity
             android:name=".ui.register.RegisterActivity"
-            android:exported="false" />
-        <activity
-            android:name=".ui.CameraActivity"
-            android:exported="false" />
+            android:exported="false"/>
+
         <activity
             android:name=".ui.resetpassword.ResetPasswordActivity"
             android:exported="false" />
         <activity
             android:name=".ui.addcar.AddCarActivity"
-            android:exported="false" />
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
         <activity
             android:name=".ui.changepassword.ChangePasswordActivity"
             android:exported="false" />
@@ -49,6 +61,23 @@
         <activity
             android:name=".MainActivity"
             android:exported="false" />
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.capstoneproject.c22ps159.pake.ui.addcar"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths"/>
+        </provider>
     </application>
+
+    <queries>
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <category android:name="android.intent.category.BROWSABLE" />
+            <data android:scheme="https" />
+        </intent>
+    </queries>
 
 </manifest>

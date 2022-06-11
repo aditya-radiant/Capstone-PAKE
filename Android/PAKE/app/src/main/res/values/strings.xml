@@ -49,4 +49,16 @@
     <string name="ed_confirm_new_password">Confirm New Password</string>
     <string name="your_car_list">Your Car List</string>
     <string name="mobile_favorite">Mobile Favorite</string>
+    <string name="dun_have_acc">Don\'t have any account?</string>
+    <string name="create_acc">Create An Account</string>
+    <string name="fill_the_form">Fill the form</string>
+    <string name="Enter_pwd">Enter your password</string>
+    <string name="reEnter_pwd">Re-enter your password</string>
+    <string name="date_and_place">Ex: Bogor, 9 April 1998</string>
+    <string name="enter_your_phone">Ex: +628xxxxxxxxxx</string>
+    <string name="enter_full_address">Ex: Jln. Blacker Street No. 255b</string>
+    <string name="male_or_female">Male/Female</string>
+    <string name="camera_not_allowed">Camera not allowed</string>
+    <string name="AddCarActivity">Add Car</string>
+    <string name="logo">It\'s a PAKE logo</string>
 </resources>

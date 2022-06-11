@@ -36,15 +36,15 @@ tools:context=".ui.register.RegisterActivity">
     <com.capstoneproject.c22ps159.pake.ui.customview.EmailEditText
         android:id="@+id/pwdEditText"
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_marginStart="32dp"
         android:layout_marginEnd="32dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/pwdTextView"
-        android:ems="10"
         android:inputType="textEmailAddress"
+        android:hint="@string/fill_email"
         tools:ignore="SpeakableTextPresentCheck" />
 
     <TextView
@@ -61,14 +61,15 @@ tools:context=".ui.register.RegisterActivity">
     <com.capstoneproject.c22ps159.pake.ui.customview.PasswordEditText
         android:id="@+id/platEditText"
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
+        android:inputType="textPassword"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_marginStart="32dp"
         android:layout_marginEnd="32dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/plat_no"
-        android:ems="10"
+        android:hint="@string/Enter_pwd"
         tools:ignore="SpeakableTextPresentCheck" />
 
     <TextView
@@ -85,14 +86,15 @@ tools:context=".ui.register.RegisterActivity">
     <com.capstoneproject.c22ps159.pake.ui.customview.PasswordEditText
         android:id="@+id/confirmPwdEditText"
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
+        android:inputType="textPassword"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:hint="@string/reEnter_pwd"
         android:layout_marginStart="32dp"
         android:layout_marginEnd="32dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/confirmPwd"
-        android:ems="10"
         tools:ignore="SpeakableTextPresentCheck" />
 
     <TextView
@@ -106,17 +108,18 @@ tools:context=".ui.register.RegisterActivity">
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/confirmPwdEditText"/>
 
-    <com.capstoneproject.c22ps159.pake.ui.customview.FormEditText
+    <com.capstoneproject.c22ps159.pake.ui.customview.NameEditText
         android:id="@+id/fullNameEditText"
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
+        android:inputType="textPersonName"
+        android:hint="@string/fill_the_name"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_marginStart="32dp"
         android:layout_marginEnd="32dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/fullName"
-        android:ems="10"
         tools:ignore="SpeakableTextPresentCheck" />
 
     <TextView
@@ -133,14 +136,15 @@ tools:context=".ui.register.RegisterActivity">
     <com.capstoneproject.c22ps159.pake.ui.customview.FormEditText
         android:id="@+id/genderEditText"
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
+        android:maxLines="1"
+        android:hint="@string/male_or_female"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_marginStart="32dp"
         android:layout_marginEnd="32dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/gender"
-        android:ems="10"
         tools:ignore="SpeakableTextPresentCheck" />
 
 
@@ -159,11 +163,12 @@ tools:context=".ui.register.RegisterActivity">
         android:id="@+id/TTLEditText"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
+        android:inputType="text"
+        android:hint="@string/date_and_place"
         android:layout_marginStart="32dp"
         android:layout_marginTop="1dp"
         android:layout_marginEnd="32dp"
-        android:ems="10"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/TTL"
@@ -184,11 +189,12 @@ tools:context=".ui.register.RegisterActivity">
         android:id="@+id/phoneEditText"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
+        android:inputType="phone"
+        android:hint="@string/enter_your_phone"
         android:layout_marginStart="32dp"
         android:layout_marginTop="1dp"
         android:layout_marginEnd="32dp"
-        android:ems="10"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/phone"
@@ -210,12 +216,13 @@ tools:context=".ui.register.RegisterActivity">
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:hint="@string/enter_full_address"
         android:layout_marginStart="32dp"
         android:layout_marginTop="1dp"
         android:layout_marginEnd="32dp"
-        android:ems="10"
         android:inputType="textMultiLine"
         android:lines="4"
+        android:maxLines="4"
         android:gravity="top"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -226,12 +233,14 @@ tools:context=".ui.register.RegisterActivity">
         android:id="@+id/AddCarButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
         android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
         android:layout_marginEnd="32dp"
-        android:text="@string/Register"
+        android:layout_marginBottom="32dp"
         android:background="@drawable/button_add_car"
         android:backgroundTint="@color/Orange1"
+        android:text="@string/Register"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/addressEditText" />
