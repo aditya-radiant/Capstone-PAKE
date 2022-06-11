@@ -15,7 +15,7 @@ import com.capstoneproject.c22ps159.pake.R
 
 class PasswordEditText: AppCompatEditText, View.OnTouchListener {
 
-    private val roundedBackground = ContextCompat.getDrawable(context, R.drawable.bg_edttext_border_color)
+    private val roundedBackground = ContextCompat.getDrawable(context, R.drawable.bg_edttext)
     private lateinit var hidePasswordIcon: Drawable
     private lateinit var showPasswordIcon: Drawable
     private var isHidden = true
@@ -42,8 +42,8 @@ class PasswordEditText: AppCompatEditText, View.OnTouchListener {
                 }
             }
         })
-        hidePasswordIcon = ContextCompat.getDrawable(context, R.drawable.ic_hide_disabled) as Drawable
-        showPasswordIcon =  ContextCompat.getDrawable(context, R.drawable.ic_hide) as Drawable
+        hidePasswordIcon = ContextCompat.getDrawable(context, R.drawable.ic_hide) as Drawable
+        showPasswordIcon =  ContextCompat.getDrawable(context, R.drawable.ic_hide_disabled) as Drawable
     }
 
     private fun setDrawables(
@@ -82,8 +82,8 @@ class PasswordEditText: AppCompatEditText, View.OnTouchListener {
             if (isToggleButtonClicked) {
                 when (event.action) {
                     MotionEvent.ACTION_DOWN -> {
-                        hidePasswordIcon = ContextCompat.getDrawable(context, R.drawable.ic_hide_disabled) as Drawable
-                        showPasswordIcon =  ContextCompat.getDrawable(context, R.drawable.ic_hide) as Drawable
+                        hidePasswordIcon = ContextCompat.getDrawable(context, R.drawable.ic_hide) as Drawable
+                        showPasswordIcon =  ContextCompat.getDrawable(context, R.drawable.ic_hide_disabled) as Drawable
                         isHidden = !isHidden
                         return true
                     }

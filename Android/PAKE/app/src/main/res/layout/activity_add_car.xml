@@ -14,38 +14,41 @@
             android:id="@+id/image"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            android:layout_marginTop="32dp">
+            app:layout_constraintTop_toTopOf="parent">
 
-            <RelativeLayout
-                android:id="@+id/group_88"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+            <View
+                android:id="@+id/rectangle_51"
+                android:layout_width="240dp"
+                android:layout_height="180dp"
                 android:layout_marginStart="0dp"
-                android:layout_marginTop="0dp">
-
-                <View
-                    android:id="@+id/rectangle_51"
-                    android:layout_width="212dp"
-                    android:layout_height="152dp"
-                    android:layout_marginStart="0dp"
-                    android:layout_marginTop="0dp"
-                    android:background="@drawable/rectangle_51_shape" />
-
-            </RelativeLayout>
-
-            <ImageView
-                android:id="@+id/add_image"
-                android:layout_width="96dp"
-                android:layout_height="96dp"
-                android:layout_marginStart="58dp"
-                android:layout_marginTop="26dp"
-                android:contentDescription="@string/ImageView"
-                android:src="@drawable/add_image" />
+                android:layout_marginTop="0dp"
+                android:background="@drawable/rectangle_51_shape" />
 
         </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/dummy"
+            android:layout_width="220dp"
+            android:layout_height="165dp"
+            app:layout_constraintBottom_toBottomOf="@+id/image"
+            app:layout_constraintEnd_toEndOf="@id/image"
+            app:layout_constraintStart_toStartOf="@id/image"
+            app:layout_constraintTop_toTopOf="@+id/image"
+            android:contentDescription="@string/ImageView" />
+
+        <ImageView
+            android:id="@+id/add_image"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            app:layout_constraintBottom_toBottomOf="@+id/image"
+            app:layout_constraintEnd_toEndOf="@id/image"
+            app:layout_constraintStart_toStartOf="@id/image"
+            app:layout_constraintTop_toTopOf="@+id/image"
+            android:contentDescription="@string/ImageView"
+            android:src="@drawable/add_image" />
 
         <Button
             android:id="@+id/gallery_button"
@@ -83,7 +86,7 @@
         <com.capstoneproject.c22ps159.pake.ui.customview.FormEditText
             android:id="@+id/carEditText"
             android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:layout_height="48dp"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_marginStart="32dp"
             android:layout_marginEnd="32dp"
@@ -107,7 +110,7 @@
         <com.capstoneproject.c22ps159.pake.ui.customview.FormEditText
             android:id="@+id/platEditText"
             android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:layout_height="48dp"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_marginStart="32dp"
             android:layout_marginEnd="32dp"
@@ -131,7 +134,7 @@
         <com.capstoneproject.c22ps159.pake.ui.customview.FormEditText
             android:id="@+id/MileageEditText"
             android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:layout_height="48dp"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_marginStart="32dp"
             android:layout_marginEnd="32dp"
@@ -155,7 +158,7 @@
         <com.capstoneproject.c22ps159.pake.ui.customview.FormEditText
             android:id="@+id/YearEditText"
             android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:layout_height="48dp"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_marginStart="32dp"
             android:layout_marginEnd="32dp"
@@ -179,7 +182,7 @@
         <com.capstoneproject.c22ps159.pake.ui.customview.FormEditText
             android:id="@+id/maintenanceEditText"
             android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:layout_height="48dp"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_marginStart="32dp"
             android:layout_marginEnd="32dp"
@@ -193,12 +196,13 @@
             android:id="@+id/AddCarButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
             android:layout_marginStart="32dp"
+            android:layout_marginTop="16dp"
             android:layout_marginEnd="32dp"
-            android:text="@string/addCar"
+            android:layout_marginBottom="32dp"
             android:background="@drawable/button_add_car"
-            android:backgroundTint="@color/Orange1"
+            android:text="@string/addCar"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/maintenanceEditText" />
