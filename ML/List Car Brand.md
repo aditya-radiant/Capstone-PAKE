@@ -1,0 +1,51 @@
+# List of car brand that can be identified 
+- 86
+- C-HR Hybrid
+- C-Hr  
+- Hi-Max  
+- Hi Ace  
+- Karimun Wagon R  
+- Raize  
+- Terios  
+- Xenia  
+- Agya  
+- All New Carry Pick Up  
+- Almaz  
+- Alphard  
+- Apv Arena  
+- Avanza  
+- Ayla  
+- Baleno  
+- Calya  
+- Camry  
+- Camry Hybrid  
+- Confero  
+- Corolla Altis  
+- Corolla Altis Hybrid  
+- Corolla Cross  
+- Cortez  
+- Ertiga  
+- Formo  
+- Fortuner  
+- Gran Max Mb  
+- Gran Max Pickup  
+- Hilux D Cab  
+- Hilux S Cab  
+- Ignis  
+- Jimny  
+- Juke  
+- Kijang Innova  
+- Land Cruiser  
+- Luxio  
+- Rocky  
+- Rush  
+- Sienta  
+- Sigra  
+- Sirion  
+- Supra  
+- Vellfire  
+- Veloz  
+- Venturer  
+- Vios  
+- Voxy  
+- Yaris  
