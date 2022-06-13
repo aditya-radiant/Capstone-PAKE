@@ -1,0 +1,8 @@
+runtime: java11
+entrypoint: java -Xmx64m -jar gradle-wrapper.jar
+
+handlers:
+- url: /.*
+  script: this field is required, but ignored
+manual_scaling:
+  instances: 1
